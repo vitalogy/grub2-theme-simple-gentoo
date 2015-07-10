@@ -1,0 +1,56 @@
+title-text: "# emerge life"
+title-font: "DejaVu Sans Bold 26"
+title-color: "#4D4166"
+desktop-color: "#4D4166"
+terminal-font: "DejaVu Sans Regular 20"
+
+## upper side
++ image {
+	top = 0%
+	left = 0%
+	width = 100%
+	height = 13%
+	file = "upper.png"
+}
+
+## boot_menu
++ boot_menu {
+	top = 20%
+	left = 10%
+	width = 80%
+	height = 65%
+	icon_width = 50%
+	icon_height = 50%
+	item_height = 80
+	item_padding = 10
+	item_icon_space = 30
+	item_spacing = 10
+	item_color = "#CCCCCC"
+	item_font = "DejaVu Sans Regular 24"
+	selected_item_color = "#FFFFFF"
+	selected_item_font = "DejaVu Sans Bold 24"
+}
+
+## timeout
++ label {
+	top = 35%
+	left = 85%
+	height = 64
+	id = "__timeout__"
+	text = "boot in %d"
+	align = "center"
+	font = "DejaVu Sans Regular 20"
+	color = "#AAAAAA"
+}
+
+## help bar at the bottom
++ label {
+	top = 90%
+	left = 0%
+	width = 100%
+	height = 64
+	text = "@KEYMAP_SHORT@"
+	align = "center"
+	font = "DejaVu Sans Regular 20"
+	color = "#AAAAAA"
+}
